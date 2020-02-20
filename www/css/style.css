@@ -1,0 +1,12 @@
+.valores
+{
+	position: relative;
+	padding-top: 1vw;
+	padding-bottom: 1vw;
+}
+#botoes
+{
+	margin: 0;
+	margin-left: -2.5%;
+	position: absolute;
+}
