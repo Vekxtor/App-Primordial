@@ -18,35 +18,27 @@
         <div class="col-sm">
           <div class="form-group">
             <div class="valores">
-				      <label for="valor1">Primeiro Valor: </label>
-				      <input type="number" class="form-control" id="valor1"></input><p>
-			      	<label for="valor2">Segundo Valor: </label>
-			      	<input type="number" class="form-control" id="valor2"></input>
-		      	</div>
+              <label class="menu">Regra de 3:</label><p>
+				      <input type="number" class="valor" id="valor1" placeholder="Primeiro Valor:"></input>
+			      	<input type="number" class="valor" id="valor2" placeholder="Segundo Valor:"></input><br>
+				      <input type="number" class="valor" id="valor1" placeholder="Terceiro Valor:"></input>
+            </div>
           </div>
         </div>
-      </div>
-      <div class="row" id="botoes">
-			<div class="col-3">
-				<button class="btn btn-primary btn-block" id="sbt">-</button>
-			</div>
-	    	<div class="col-3">
-	     		<button class="btn btn-primary btn-block" id="soma">+</button>
-	    	</div>
-	    	<div class="col-3">
-	      	<button class="btn btn-primary btn-block" id="divd">/</button>
-	    	</div> 
-      	<div class="col-3">
-	       	<button class="btn btn-primary btn-block" id="mult">*</button>
-	    	</div>
-		</div>
-    <div class="row">
-			<div class="col-3">
-        <div class="form-group">
-				  <label for="res">Resultado: </label>
-				  <input type="number" class="form-control" id="result" readonly></input><p>
+        <div class="row">
+          <div class="col-3">
+            <div class="form-group">
+              <input type="number" class="form-control" id="result" readonly></input><p>
+            </div>
+          </div>
         </div>
-			</div>
+        <div class="row">
+          <div class="col-3">
+            <div class="form-group">
+              <button class="Calcular" id="cl" type="submit">c a l c u l a r</button><p>
+            </div>
+          </div>
+        </div>
   </div>
 </body>
 </html>
